@@ -8,13 +8,18 @@ So in essence this is an app under its very early stages of development. I plan 
 
 # Installation
 
-You will have to install the file by first building it with _build.bat_. I advise against using _build.ps1_, since many a times Windows Defender stops the script from working fully; so unless you disable Windows Defender wholly (which I do not recommend) the script may not fully work. 
+1. In top right, select the "Code" button, then "Download .ZIP". Extract it after install.
+2. Run _build.bat_. Wait for it to install dependencies.
+3. Open the dist/ directory, then open UnifiedShell.exe.
+
+- You will have to compile the .exe by first building it with _build.bat_ (it downloads all dependencies). **I advise against using _build.ps1_**, since many a times Windows Defender stops the script from working fully; so unless you disable Windows Defender wholly (which I do not recommend) the script may not fully work. 
 
 
 # Known issues
 
 - Pinned apps on the top left of the dock do not function properly
 - Dragging sliders does not function properly
+- Everything Search does not work in the Search window.
 
 
 # Features planned
@@ -28,3 +33,5 @@ You will have to install the file by first building it with _build.bat_. I advis
 - App launch configurations
 - Integrated functionality into Windows Settings, Explorer, etc.
 - Greater customization of the entire app
+
+> Next update planned for 08/11/2026 or earlier.
